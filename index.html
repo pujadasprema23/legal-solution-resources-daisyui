@@ -256,14 +256,14 @@
  
 </div>
            </section>
-           <!-- FAQ -->
+           <!-- FAQ section -->
             <section class="my-24">
-                <h1 class="text-4xl font-semibold text-center mb-9">Frequently Asked Any Questions</h1>
-                <p class="text-center mb-9">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                <h1 class="text-2xl lg:text-4xl font-semibold text-center mb-9">Frequently Asked Any Questions</h1>
+                <p class="text-center lg:w-1/2 mx-auto mb-9">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
                 <!-- collapse and image container -->
-                <div class="flex justify-between">
+                <div class="flex flex-col lg:flex-row justify-between items-center gap-5 p-10">
                     <!-- collapse container -->
-                  <div class="flex-1">
+                  <div class="flex-1 space-y-7">
                       <!-- collapse 1 -->
                     <div class="collapse collapse-plus bg-base-200">
   <input type="radio" name="my-accordion-3" checked="checked" />
@@ -298,13 +298,97 @@
 </div>
                   </div>
              <div class="flex-1">
-                <img src="images/faq.png" alt="">
+                <img class="w-96 lg:w-3/4" src="images/faq.png" alt="">
              </div>
                 </div>
             </section>
+            <!-- contact with us section -->
+             <section class="my-24">
+                  <h1 class="text-4xl text-center font-semibold mb-9">Contact With Us</h1>
+                  <p class="text-center lg:w-1/2 mx-auto mb-9">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+                  <!-- cards and image container -->
+                   <div class="flex lg:flex-row justify-between items-center gap-10 p-10">
+                        <!-- cards container -->
+                         <div class="grid grid-cols-1 md:grid-cols-2 flex-1">
+                             <!-- cards-1 -->
+                               <div class="card rounded-none border-b-2 border-r-2 border-inherit bg-[#F3F3F3]">
+                                   <figure class="px-10 pt-10">
+                                     <img
+                                       src="images/location.png"
+                                       alt="location"
+                                       class="rounded-xl" />
+                                   </figure>
+                                   <div class="card-body items-center text-center">
+                                     <h2 class="card-title">Address</h2>
+                                     <p>A108 Adam Street,<br>
+                                      New York, NY 535022</p>
+                                    
+                                   </div>
+                                 </div>
+                             <!-- cards-2 -->
+                               <div class="card rounded-none border-b-2 border-inherit bg-[#F3F3F3] shadow-xl">
+                                   <figure class="px-10 pt-10">
+                                     <img
+                                       src="images/call.png"
+                                       alt="location"
+                                       class="rounded-xl" />
+                                   </figure>
+                                   <div class="card-body items-center text-center">
+                                     <h2 class="card-title">Call Us</h2>
+                                     <p>+88 01750 00 00 00<br>
+                                      +88 01750 00 00 00</p>
+                                    
+                                   </div>
+                                 </div>
+                             <!-- cards-3 -->
+                               <div class="card rounded-none border-r-2 border-inherit bg-[#F3F3F3] shadow-xl">
+                                   <figure class="px-10 pt-10">
+                                     <img
+                                       src="images/email.png"
+                                       alt="location"
+                                       class="rounded-xl" />
+                                   </figure>
+                                   <div class="card-body items-center text-center">
+                                     <h2 class="card-title">Email Us</h2>
+                                     <p>info@gmail.com
+                                     <br> info@gmail.com</p>
+                                   </div>
+                                 </div>
+                             <!-- cards-4 -->
+                               <div class="card rounded-none bg-[#F3F3F3] shadow-xl">
+                                   <figure class="px-10 pt-10">
+                                     <img
+                                       src="images/time.png"
+                                       alt="location"
+                                       class="rounded-xl" />
+                                   </figure>
+                                   <div class="card-body items-center text-center">
+                                     <h2 class="card-title">Working Hours</h2>
+                                     <p>Mon-Fri: 9AM to 5PM<br>
+                                      Sunday: 9AM to 1 PM</p>
+                                    
+                                   </div>
+                                 </div>
+                         </div>
+                         <!-- input text container -->
+                          <div class="grid space-y-6 flex-1">
+                            <!-- name -->
+                                <input type="text" placeholder="Your Name" class="input bg-[#F3F3F3] w-full" />
+                                <!-- email -->
+                                <input type="text" placeholder="Your Email" class="input bg-[#F3F3F3] w-full" />
+                                <!-- subject -->
+                                 <input type="text" placeholder="Subject" class="input bg-[#F3F3F3] w-full" />
+                                 <!-- message -->
+                                  <input
+                                   type="text"
+                                   placeholder="Your Message"
+                                   class="input bg-[#F3F3F3] h-36 input-lg" />
+                                   <!-- button -->
+                                    <button class="btn bg-btn-color text-white">Send Message</button>
+                          </div>
+                   </div>
+             </section>
     </main>
-    <footer>
-
-    </footer>
+    
 </body>
 </html>
